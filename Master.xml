@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- parallel-->
+<!--  <suite name="Suite" thread-count="5" parallel="classes" > -->
+
+
+<suite name="FinalSuite" thread-count="5">
+
+	<!-- Listeners for to gereate reports-->
+
+	<listeners>
+		<listener class-name="Listnears.TestNGListners" />
+	</listeners>
+
+
+	<test name="All Test Cases">
+
+
+		<!-- Used to run test by sanity/regression/master/etc...-->
+		<!--	<groups>
+			<run>
+				<include name="sanity" />
+				<include name="regression" />
+				<include name="master" />
+				<exclude name="" />
+
+			</run>
+		</groups>   -->
+
+
+		<classes>
+			<class name="testCases.TC101_ToVerifyValidLoginDetails" />
+			<class name="testCases.TC102_toVerifyCheckIn_CheckOut_Dates" />
+			<class name="testCases.TC103_ToVerifyErrorMSGInDateField" />
+			<class name="testCases.TC104_VerifyingTheSearchHotelDetails" />
+			<class
+				name="testCases.TC105_ToVerifyChkIn_Out_DateProper_SearchHotel" />
+			<class name="testCases.TC106_ToVerifyNumOfRooms_SearchHotel" />
+			<class name="testCases.TC107_ToVerifyRoomType_SearchHotel" />
+			<class name="testCases.TC108_VerifyTheTotalPricesOfTheRooms" />
+			<class name="testCases.TC109_LogOutFromTheBookHotelPage" />
+			<class name="testCases.TC110_VerifyTheTotalPricesOfTheRoomsWithGST" />
+			<class name="testCases.TC111_ValidatingFields_BookHotelPage" />
+			<class name="testCases.TC112_ValidatingFinalBillPrice_BookHotel" />
+			<class name="testCases.TC113_VerifyingDates_BookingConfirm" />
+			<class name="testCases.TC114_VerifyingOrderNumber_BookingConfirm" />
+			<class
+				name="testCases.TC115_VerifyingIfItineraryDetailsEditable_SelectHotel" />
+			<class
+				name="testCases.TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel" />
+			<class
+				name="testCases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel" />
+			<class
+				name="testCases.TC118_VerifyingIfSearchIdShowingValidDeatils_SelectHotel" />
+			<class name="testCases.TC119_VerifyingIfOrderIdDeleted_SelectHotel" />
+			<class name="testCases.TC120_VerifyAllPagesTitles" />
+		</classes>
+	</test>
+</suite> <!--
+Suite -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SerialSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="smoke(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+        <include name="regression"/>
+        <include name="master"/>
+        <exclude name=""/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TC101_ToVerifyValidLoginDetails">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ValidLoginDetails"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TC101_ToVerifyValidLoginDetails -->
+    </classes>
+  </test> <!-- smoke(failed) -->
+</suite> <!-- Failed suite [SerialSuite] -->
