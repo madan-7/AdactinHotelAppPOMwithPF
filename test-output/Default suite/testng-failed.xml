@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC104_VerifyingTheSearchHotelDetails">
+      <class name="com.adactinhotelapp.testcases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="verifyingTheSearchHotelDetails"/>
+          <include name="toVerifyingFieldsInSelectHotel"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.TC104_VerifyingTheSearchHotelDetails -->
+      </class> <!-- com.adactinhotelapp.testcases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

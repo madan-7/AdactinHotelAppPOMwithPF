@@ -71,25 +71,28 @@ public class TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel extends Ba
 		Assert.assertEquals(getTitleofPage(), AppConstants.HOTEL_BOOKING_CONFIRMATION_PAGE_TITLE);
 		
 		HotelBookingConfirmation hbc = new HotelBookingConfirmation(driver);
+		String orderNum = hbc.orderNum();
+		
 		hbc.clickItinerary();
 		
 		BookedItineraryPage bookedItineraryPage= new BookedItineraryPage(driver);
 		
-		String orderId = bookedItineraryPage.getOrderId();
 		
-		bookedItineraryPage.orderIdInputBox(orderId);
+		
+		bookedItineraryPage.orderIdInputBox(orderNum);
 		
 		bookedItineraryPage.clickGoButton();
-				
+		
 		
 		Assert.assertEquals(bookedItineraryPage.hotelValidate(),prop.getProperty("hotel"));
 		Assert.assertEquals(bookedItineraryPage.locValidate(),prop.getProperty("location"));
 		Assert.assertEquals(bookedItineraryPage.roomTypeValidate(),prop.getProperty("roomType"));
 		
 		Assert.assertEquals(bookedItineraryPage.fistName(),prop.getProperty("fName"));
+		
+		
+		
 
-		
-		
 		ChainTestListener.log("TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel has ended");
 		Allure.step("Test TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel has ended");
 

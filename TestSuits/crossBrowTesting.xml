@@ -28,8 +28,8 @@
   
   
     <classes>
-      <class name="testCases.TC101_ToVerifyValidLoginDetails"/>
-      <class name="testCases.TC102_ValidatingForgotPossword"/>
+      <class name="com.adactinhotelapp.testcases.TC101_ToVerifyValidLoginDetails"/>
+      <class name="com.adactinhotelapp.testcases.TC102_ValidatingForgotPossword"/>
     </classes>
   </test> <!-- smoke -->
 </suite> <!-- Suite -->

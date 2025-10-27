@@ -10,7 +10,7 @@
 	<!-- Listeners for to gereate reports-->
 
 	<listeners>
-		<listener class-name="Listnears.TestNGListners" />
+		<listener class-name="com.adactinhotelapp.listnears.TestNGListners" />
 	</listeners>
 
 
@@ -27,35 +27,49 @@
 
 			</run>
 		</groups>   -->
-
-
+		
 		<classes>
-			<class name="testCases.TC101_ToVerifyValidLoginDetails" />
-			<class name="testCases.TC102_toVerifyCheckIn_CheckOut_Dates" />
-			<class name="testCases.TC103_ToVerifyErrorMSGInDateField" />
-			<class name="testCases.TC104_VerifyingTheSearchHotelDetails" />
 			<class
-				name="testCases.TC105_ToVerifyChkIn_Out_DateProper_SearchHotel" />
-			<class name="testCases.TC106_ToVerifyNumOfRooms_SearchHotel" />
-			<class name="testCases.TC107_ToVerifyRoomType_SearchHotel" />
-			<class name="testCases.TC108_VerifyTheTotalPricesOfTheRooms" />
-			<class name="testCases.TC109_LogOutFromTheBookHotelPage" />
-			<class name="testCases.TC110_VerifyTheTotalPricesOfTheRoomsWithGST" />
-			<class name="testCases.TC111_ValidatingFields_BookHotelPage" />
-			<class name="testCases.TC112_ValidatingFinalBillPrice_BookHotel" />
-			<class name="testCases.TC113_VerifyingDates_BookingConfirm" />
-			<class name="testCases.TC114_VerifyingOrderNumber_BookingConfirm" />
+				name="com.adactinhotelapp.testcases.TC101_ToVerifyValidLoginDetails" />
 			<class
-				name="testCases.TC115_VerifyingIfItineraryDetailsEditable_SelectHotel" />
+				name="com.adactinhotelapp.testcases.TC102_toVerifyCheckIn_CheckOut_Dates" />
+
 			<class
-				name="testCases.TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel" />
+				name="com.adactinhotelapp.testcases.TC103_ToVerifyErrorMSGInDateField" />
 			<class
-				name="testCases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel" />
+				name="com.adactinhotelapp.testcases.TC104_VerifyingTheSearchHotelDetails" />
 			<class
-				name="testCases.TC118_VerifyingIfSearchIdShowingValidDeatils_SelectHotel" />
-			<class name="testCases.TC119_VerifyingIfOrderIdDeleted_SelectHotel" />
-			<class name="testCases.TC120_VerifyAllPagesTitles" />
+				name="com.adactinhotelapp.testcases.TC105_ToVerifyChkIn_Out_DateProper_SearchHotel" />
+			<class
+				name="com.adactinhotelapp.testcases.TC106_ToVerifyNumOfRooms_SearchHotel" />
+			<class
+				name="com.adactinhotelapp.testcases.TC107_ToVerifyRoomType_SearchHotel" />
+			<class
+				name="com.adactinhotelapp.testcases.TC108_VerifyTheTotalPricesOfTheRooms" />
+			<class
+				name="com.adactinhotelapp.testcases.TC109_LogOutFromTheBookHotelPage" />
+			<class
+				name="com.adactinhotelapp.testcases.TC110_VerifyTheTotalPricesOfTheRoomsWithGST" />
+			<class
+				name="com.adactinhotelapp.testcases.TC111_ValidatingFields_BookHotelPage" />
+			<class
+				name="com.adactinhotelapp.testcases.TC112_ValidatingFinalBillPrice_BookHotel" />
+			<class
+				name="com.adactinhotelapp.testcases.TC113_VerifyingDates_BookingConfirm" />
+			<class
+				name="com.adactinhotelapp.testcases.TC114_VerifyingOrderNumber_BookingConfirm" />
+			<class
+				name="com.adactinhotelapp.testcases.TC115_VerifyingIfItineraryDetailsEditable_SelectHotel" />
+			<class
+				name="com.adactinhotelapp.testcases.TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel" />
+			<class
+				name="com.adactinhotelapp.testcases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel" />
+			<class
+				name="com.adactinhotelapp.testcases.TC118_VerifyingIfSearchIdShowingValidDeatils_SelectHotel" />
+			<class
+				name="com.adactinhotelapp.testcases.TC119_VerifyingIfOrderIdDeleted_SelectHotel" />
+			<class
+				name="com.adactinhotelapp.testcases.TC120_VerifyAllPagesTitles" />
 		</classes>
 	</test>
-</suite> <!--
-Suite -->
+</suite>

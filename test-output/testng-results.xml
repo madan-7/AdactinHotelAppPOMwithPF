@@ -1,106 +1,470 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-24T20:51:14 IST" name="Default suite" finished-at="2025-10-24T20:51:40 IST" duration-ms="25956">
+  <suite started-at="2025-10-27T23:43:11 IST" name="FinalSuite" finished-at="2025-10-27T23:52:47 IST" duration-ms="575803">
     <groups>
+      <group name="regression">
+        <method signature="TC101_ToVerifyValidLoginDetails.ValidLoginDetails()[pri:0, instance:com.adactinhotelapp.testcases.TC101_ToVerifyValidLoginDetails@10fbbdb]" name="ValidLoginDetails" class="com.adactinhotelapp.testcases.TC101_ToVerifyValidLoginDetails"/>
+        <method signature="TC102_toVerifyCheckIn_CheckOut_Dates.verifyingChkInAndChkOutDates()[pri:0, instance:com.adactinhotelapp.testcases.TC102_toVerifyCheckIn_CheckOut_Dates@54657dd2]" name="verifyingChkInAndChkOutDates" class="com.adactinhotelapp.testcases.TC102_toVerifyCheckIn_CheckOut_Dates"/>
+        <method signature="TC104_VerifyingTheSearchHotelDetails.verifyingTheSearchHotelDetails()[pri:0, instance:com.adactinhotelapp.testcases.TC104_VerifyingTheSearchHotelDetails@72725ee1]" name="verifyingTheSearchHotelDetails" class="com.adactinhotelapp.testcases.TC104_VerifyingTheSearchHotelDetails"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC101_ToVerifyValidLoginDetails.ValidLoginDetails()[pri:0, instance:com.adactinhotelapp.testcases.TC101_ToVerifyValidLoginDetails@10fbbdb]" name="ValidLoginDetails" class="com.adactinhotelapp.testcases.TC101_ToVerifyValidLoginDetails"/>
+        <method signature="TC102_toVerifyCheckIn_CheckOut_Dates.verifyingChkInAndChkOutDates()[pri:0, instance:com.adactinhotelapp.testcases.TC102_toVerifyCheckIn_CheckOut_Dates@54657dd2]" name="verifyingChkInAndChkOutDates" class="com.adactinhotelapp.testcases.TC102_toVerifyCheckIn_CheckOut_Dates"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TC104_VerifyingTheSearchHotelDetails.verifyingTheSearchHotelDetails()[pri:0, instance:com.adactinhotelapp.testcases.TC104_VerifyingTheSearchHotelDetails@72725ee1]" name="verifyingTheSearchHotelDetails" class="com.adactinhotelapp.testcases.TC104_VerifyingTheSearchHotelDetails"/>
+        <method signature="TC108_VerifyTheTotalPricesOfTheRooms.toVerifyNumOfRooms()[pri:0, instance:com.adactinhotelapp.testcases.TC108_VerifyTheTotalPricesOfTheRooms@5ac6c4f2]" name="toVerifyNumOfRooms" class="com.adactinhotelapp.testcases.TC108_VerifyTheTotalPricesOfTheRooms"/>
+        <method signature="TC109_LogOutFromTheBookHotelPage.toVerifylogOutfromBookHotelPage()[pri:0, instance:com.adactinhotelapp.testcases.TC109_LogOutFromTheBookHotelPage@2aa6311a]" name="toVerifylogOutfromBookHotelPage" class="com.adactinhotelapp.testcases.TC109_LogOutFromTheBookHotelPage"/>
+        <method signature="TC112_ValidatingFinalBillPrice_BookHotel.toValidatingFieldsofTotalPrice()[pri:0, instance:com.adactinhotelapp.testcases.TC112_ValidatingFinalBillPrice_BookHotel@4893b344]" name="toValidatingFieldsofTotalPrice" class="com.adactinhotelapp.testcases.TC112_ValidatingFinalBillPrice_BookHotel"/>
+        <method signature="TC114_VerifyingOrderNumber_BookingConfirm.toVerifyingDatesInBookingConfirm()[pri:0, instance:com.adactinhotelapp.testcases.TC114_VerifyingOrderNumber_BookingConfirm@2c0b4c83]" name="toVerifyingDatesInBookingConfirm" class="com.adactinhotelapp.testcases.TC114_VerifyingOrderNumber_BookingConfirm"/>
+        <method signature="TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel.toVerifyingFieldsInSelectHotel()[pri:0, instance:com.adactinhotelapp.testcases.TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel@2d0ecb24]" name="toVerifyingFieldsInSelectHotel" class="com.adactinhotelapp.testcases.TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel"/>
+        <method signature="TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel.toVerifyingFieldsInSelectHotel()[pri:0, instance:com.adactinhotelapp.testcases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel@4d654825]" name="toVerifyingFieldsInSelectHotel" class="com.adactinhotelapp.testcases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel"/>
+        <method signature="TC119_VerifyingIfOrderIdDeleted_SelectHotel.toVerifyingIfOrderIdDeleted()[pri:0, instance:com.adactinhotelapp.testcases.TC119_VerifyingIfOrderIdDeleted_SelectHotel@51b35e4e]" name="toVerifyingIfOrderIdDeleted" class="com.adactinhotelapp.testcases.TC119_VerifyingIfOrderIdDeleted_SelectHotel"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC103_ToVerifyErrorMSGInDateField.toVerifyErrorMSGInDateField()[pri:0, instance:com.adactinhotelapp.testcases.TC103_ToVerifyErrorMSGInDateField@706eab5d]" name="toVerifyErrorMSGInDateField" class="com.adactinhotelapp.testcases.TC103_ToVerifyErrorMSGInDateField"/>
+        <method signature="TC104_VerifyingTheSearchHotelDetails.verifyingTheSearchHotelDetails()[pri:0, instance:com.adactinhotelapp.testcases.TC104_VerifyingTheSearchHotelDetails@72725ee1]" name="verifyingTheSearchHotelDetails" class="com.adactinhotelapp.testcases.TC104_VerifyingTheSearchHotelDetails"/>
+        <method signature="TC105_ToVerifyChkIn_Out_DateProper_SearchHotel.verifyingChkInAndChkOutDates()[pri:0, instance:com.adactinhotelapp.testcases.TC105_ToVerifyChkIn_Out_DateProper_SearchHotel@40e60ece]" name="verifyingChkInAndChkOutDates" class="com.adactinhotelapp.testcases.TC105_ToVerifyChkIn_Out_DateProper_SearchHotel"/>
+        <method signature="TC106_ToVerifyNumOfRooms_SearchHotel.toVerifyNumOfRooms()[pri:0, instance:com.adactinhotelapp.testcases.TC106_ToVerifyNumOfRooms_SearchHotel@3f9270ed]" name="toVerifyNumOfRooms" class="com.adactinhotelapp.testcases.TC106_ToVerifyNumOfRooms_SearchHotel"/>
+        <method signature="TC107_ToVerifyRoomType_SearchHotel.toVerifyRoomType()[pri:0, instance:com.adactinhotelapp.testcases.TC107_ToVerifyRoomType_SearchHotel@3a230001]" name="toVerifyRoomType" class="com.adactinhotelapp.testcases.TC107_ToVerifyRoomType_SearchHotel"/>
+        <method signature="TC108_VerifyTheTotalPricesOfTheRooms.toVerifyNumOfRooms()[pri:0, instance:com.adactinhotelapp.testcases.TC108_VerifyTheTotalPricesOfTheRooms@5ac6c4f2]" name="toVerifyNumOfRooms" class="com.adactinhotelapp.testcases.TC108_VerifyTheTotalPricesOfTheRooms"/>
+        <method signature="TC109_LogOutFromTheBookHotelPage.toVerifylogOutfromBookHotelPage()[pri:0, instance:com.adactinhotelapp.testcases.TC109_LogOutFromTheBookHotelPage@2aa6311a]" name="toVerifylogOutfromBookHotelPage" class="com.adactinhotelapp.testcases.TC109_LogOutFromTheBookHotelPage"/>
+        <method signature="TC110_VerifyTheTotalPricesOfTheRoomsWithGST.toVerifyNumOfRooms()[pri:0, instance:com.adactinhotelapp.testcases.TC110_VerifyTheTotalPricesOfTheRoomsWithGST@61f39bb]" name="toVerifyNumOfRooms" class="com.adactinhotelapp.testcases.TC110_VerifyTheTotalPricesOfTheRoomsWithGST"/>
+        <method signature="TC111_ValidatingFields_BookHotelPage.toValidatingFieldsInBookHotelPage()[pri:0, instance:com.adactinhotelapp.testcases.TC111_ValidatingFields_BookHotelPage@249e0271]" name="toValidatingFieldsInBookHotelPage" class="com.adactinhotelapp.testcases.TC111_ValidatingFields_BookHotelPage"/>
+        <method signature="TC112_ValidatingFinalBillPrice_BookHotel.toValidatingFieldsofTotalPrice()[pri:0, instance:com.adactinhotelapp.testcases.TC112_ValidatingFinalBillPrice_BookHotel@4893b344]" name="toValidatingFieldsofTotalPrice" class="com.adactinhotelapp.testcases.TC112_ValidatingFinalBillPrice_BookHotel"/>
+        <method signature="TC113_VerifyingDates_BookingConfirm.toVerifyingDatesInBookingConfirm()[pri:0, instance:com.adactinhotelapp.testcases.TC113_VerifyingDates_BookingConfirm@53a665ad]" name="toVerifyingDatesInBookingConfirm" class="com.adactinhotelapp.testcases.TC113_VerifyingDates_BookingConfirm"/>
+        <method signature="TC114_VerifyingOrderNumber_BookingConfirm.toVerifyingDatesInBookingConfirm()[pri:0, instance:com.adactinhotelapp.testcases.TC114_VerifyingOrderNumber_BookingConfirm@2c0b4c83]" name="toVerifyingDatesInBookingConfirm" class="com.adactinhotelapp.testcases.TC114_VerifyingOrderNumber_BookingConfirm"/>
+        <method signature="TC115_VerifyingIfItineraryDetailsEditable_SelectHotel.toVerifyingDatesInBookingConfirm()[pri:0, instance:com.adactinhotelapp.testcases.TC115_VerifyingIfItineraryDetailsEditable_SelectHotel@78525ef9]" name="toVerifyingDatesInBookingConfirm" class="com.adactinhotelapp.testcases.TC115_VerifyingIfItineraryDetailsEditable_SelectHotel"/>
+        <method signature="TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel.toVerifyingFieldsInSelectHotel()[pri:0, instance:com.adactinhotelapp.testcases.TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel@2d0ecb24]" name="toVerifyingFieldsInSelectHotel" class="com.adactinhotelapp.testcases.TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel"/>
+        <method signature="TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel.toVerifyingFieldsInSelectHotel()[pri:0, instance:com.adactinhotelapp.testcases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel@4d654825]" name="toVerifyingFieldsInSelectHotel" class="com.adactinhotelapp.testcases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel"/>
+        <method signature="TC118_VerifyingIfSearchIdShowingValidDeatils_SelectHotel.toVerifyingFieldsInSelectHotel()[pri:0, instance:com.adactinhotelapp.testcases.TC118_VerifyingIfSearchIdShowingValidDeatils_SelectHotel@3bfc6a5e]" name="toVerifyingFieldsInSelectHotel" class="com.adactinhotelapp.testcases.TC118_VerifyingIfSearchIdShowingValidDeatils_SelectHotel"/>
+        <method signature="TC119_VerifyingIfOrderIdDeleted_SelectHotel.toVerifyingIfOrderIdDeleted()[pri:0, instance:com.adactinhotelapp.testcases.TC119_VerifyingIfOrderIdDeleted_SelectHotel@51b35e4e]" name="toVerifyingIfOrderIdDeleted" class="com.adactinhotelapp.testcases.TC119_VerifyingIfOrderIdDeleted_SelectHotel"/>
+        <method signature="TC120_VerifyAllPagesTitles.titlesVerify()[pri:0, instance:com.adactinhotelapp.testcases.TC120_VerifyAllPagesTitles@abff8b7]" name="titlesVerify" class="com.adactinhotelapp.testcases.TC120_VerifyAllPagesTitles"/>
+      </group> <!-- master -->
     </groups>
-    <test started-at="2025-10-24T20:51:14 IST" name="Default test" finished-at="2025-10-24T20:51:40 IST" duration-ms="25956">
-      <class name="testCases.TC104_VerifyingTheSearchHotelDetails">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC104_VerifyingTheSearchHotelDetails@28e19366]" started-at="2025-10-24T20:51:14 IST" name="setUp" finished-at="2025-10-24T20:51:20 IST" duration-ms="5386" status="PASS">
+    <test started-at="2025-10-27T23:43:11 IST" name="All Test Cases" finished-at="2025-10-27T23:52:47 IST" duration-ms="575803">
+      <class name="com.adactinhotelapp.testcases.TC109_LogOutFromTheBookHotelPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC109_LogOutFromTheBookHotelPage@2aa6311a]" started-at="2025-10-27T23:44:38 IST" name="setUp" finished-at="2025-10-27T23:44:41 IST" duration-ms="2944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyingTheSearchHotelDetails()[pri:0, instance:testCases.TC104_VerifyingTheSearchHotelDetails@28e19366]" started-at="2025-10-24T20:51:20 IST" name="verifyingTheSearchHotelDetails" finished-at="2025-10-24T20:51:30 IST" duration-ms="10135" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
-  (Session info: chrome=141.0.7390.108)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [186eb284b9b14bc916c390f8331e7473, findElement {value=//input[@id='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\madan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60233}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60233/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 186eb284b9b14bc916c390f8331e7473]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
-  (Session info: chrome=141.0.7390.108)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [186eb284b9b14bc916c390f8331e7473, findElement {value=//input[@id='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\madan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60233}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60233/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 186eb284b9b14bc916c390f8331e7473
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
-at PageObjects.LoginPage.usernameInput(LoginPage.java:39)
-at testCases.TC104_VerifyingTheSearchHotelDetails.verifyingTheSearchHotelDetails(TC104_VerifyingTheSearchHotelDetails.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="toVerifylogOutfromBookHotelPage()[pri:0, instance:com.adactinhotelapp.testcases.TC109_LogOutFromTheBookHotelPage@2aa6311a]" started-at="2025-10-27T23:44:41 IST" name="toVerifylogOutfromBookHotelPage" finished-at="2025-10-27T23:44:50 IST" duration-ms="8232" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyingTheSearchHotelDetails -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.TC104_VerifyingTheSearchHotelDetails@28e19366]" started-at="2025-10-24T20:51:30 IST" name="tearDown" finished-at="2025-10-24T20:51:40 IST" duration-ms="10173" status="PASS">
+        </test-method> <!-- toVerifylogOutfromBookHotelPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC109_LogOutFromTheBookHotelPage@2aa6311a]" started-at="2025-10-27T23:44:50 IST" name="tearDown" finished-at="2025-10-27T23:44:53 IST" duration-ms="3297" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyingTheSearchHotelDetails status=FAILURE method=TC104_VerifyingTheSearchHotelDetails.verifyingTheSearchHotelDetails()[pri:0, instance:testCases.TC104_VerifyingTheSearchHotelDetails@28e19366] output={null}]]]>
+                <![CDATA[[TestResult name=toVerifylogOutfromBookHotelPage status=SUCCESS method=TC109_LogOutFromTheBookHotelPage.toVerifylogOutfromBookHotelPage()[pri:0, instance:com.adactinhotelapp.testcases.TC109_LogOutFromTheBookHotelPage@2aa6311a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC104_VerifyingTheSearchHotelDetails -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.adactinhotelapp.testcases.TC109_LogOutFromTheBookHotelPage -->
+      <class name="com.adactinhotelapp.testcases.TC101_ToVerifyValidLoginDetails">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC101_ToVerifyValidLoginDetails@10fbbdb]" started-at="2025-10-27T23:43:11 IST" name="setUp" finished-at="2025-10-27T23:43:15 IST" duration-ms="3644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidLoginDetails()[pri:0, instance:com.adactinhotelapp.testcases.TC101_ToVerifyValidLoginDetails@10fbbdb]" started-at="2025-10-27T23:43:15 IST" name="ValidLoginDetails" finished-at="2025-10-27T23:43:17 IST" duration-ms="2254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC101_ToVerifyValidLoginDetails@10fbbdb]" started-at="2025-10-27T23:43:17 IST" name="tearDown" finished-at="2025-10-27T23:43:21 IST" duration-ms="3276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLoginDetails status=SUCCESS method=TC101_ToVerifyValidLoginDetails.ValidLoginDetails()[pri:0, instance:com.adactinhotelapp.testcases.TC101_ToVerifyValidLoginDetails@10fbbdb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC101_ToVerifyValidLoginDetails -->
+      <class name="com.adactinhotelapp.testcases.TC118_VerifyingIfSearchIdShowingValidDeatils_SelectHotel">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC118_VerifyingIfSearchIdShowingValidDeatils_SelectHotel@3bfc6a5e]" started-at="2025-10-27T23:49:35 IST" name="setUp" finished-at="2025-10-27T23:49:38 IST" duration-ms="2973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="toVerifyingFieldsInSelectHotel()[pri:0, instance:com.adactinhotelapp.testcases.TC118_VerifyingIfSearchIdShowingValidDeatils_SelectHotel@3bfc6a5e]" started-at="2025-10-27T23:49:38 IST" name="toVerifyingFieldsInSelectHotel" finished-at="2025-10-27T23:50:37 IST" duration-ms="58576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyingFieldsInSelectHotel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC118_VerifyingIfSearchIdShowingValidDeatils_SelectHotel@3bfc6a5e]" started-at="2025-10-27T23:50:37 IST" name="tearDown" finished-at="2025-10-27T23:50:40 IST" duration-ms="3308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyingFieldsInSelectHotel status=SUCCESS method=TC118_VerifyingIfSearchIdShowingValidDeatils_SelectHotel.toVerifyingFieldsInSelectHotel()[pri:0, instance:com.adactinhotelapp.testcases.TC118_VerifyingIfSearchIdShowingValidDeatils_SelectHotel@3bfc6a5e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC118_VerifyingIfSearchIdShowingValidDeatils_SelectHotel -->
+      <class name="com.adactinhotelapp.testcases.TC108_VerifyTheTotalPricesOfTheRooms">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC108_VerifyTheTotalPricesOfTheRooms@5ac6c4f2]" started-at="2025-10-27T23:44:26 IST" name="setUp" finished-at="2025-10-27T23:44:29 IST" duration-ms="2975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="toVerifyNumOfRooms()[pri:0, instance:com.adactinhotelapp.testcases.TC108_VerifyTheTotalPricesOfTheRooms@5ac6c4f2]" started-at="2025-10-27T23:44:29 IST" name="toVerifyNumOfRooms" finished-at="2025-10-27T23:44:35 IST" duration-ms="5844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyNumOfRooms -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC108_VerifyTheTotalPricesOfTheRooms@5ac6c4f2]" started-at="2025-10-27T23:44:35 IST" name="tearDown" finished-at="2025-10-27T23:44:38 IST" duration-ms="3303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyNumOfRooms status=SUCCESS method=TC108_VerifyTheTotalPricesOfTheRooms.toVerifyNumOfRooms()[pri:0, instance:com.adactinhotelapp.testcases.TC108_VerifyTheTotalPricesOfTheRooms@5ac6c4f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC108_VerifyTheTotalPricesOfTheRooms -->
+      <class name="com.adactinhotelapp.testcases.TC112_ValidatingFinalBillPrice_BookHotel">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC112_ValidatingFinalBillPrice_BookHotel@4893b344]" started-at="2025-10-27T23:45:18 IST" name="setUp" finished-at="2025-10-27T23:45:21 IST" duration-ms="2931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="toValidatingFieldsofTotalPrice()[pri:0, instance:com.adactinhotelapp.testcases.TC112_ValidatingFinalBillPrice_BookHotel@4893b344]" started-at="2025-10-27T23:45:21 IST" name="toValidatingFieldsofTotalPrice" finished-at="2025-10-27T23:45:29 IST" duration-ms="7745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toValidatingFieldsofTotalPrice -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC112_ValidatingFinalBillPrice_BookHotel@4893b344]" started-at="2025-10-27T23:45:29 IST" name="tearDown" finished-at="2025-10-27T23:45:32 IST" duration-ms="3310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toValidatingFieldsofTotalPrice status=SUCCESS method=TC112_ValidatingFinalBillPrice_BookHotel.toValidatingFieldsofTotalPrice()[pri:0, instance:com.adactinhotelapp.testcases.TC112_ValidatingFinalBillPrice_BookHotel@4893b344] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC112_ValidatingFinalBillPrice_BookHotel -->
+      <class name="com.adactinhotelapp.testcases.TC113_VerifyingDates_BookingConfirm">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC113_VerifyingDates_BookingConfirm@53a665ad]" started-at="2025-10-27T23:45:32 IST" name="setUp" finished-at="2025-10-27T23:45:35 IST" duration-ms="3055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="toVerifyingDatesInBookingConfirm()[pri:0, instance:com.adactinhotelapp.testcases.TC113_VerifyingDates_BookingConfirm@53a665ad]" started-at="2025-10-27T23:45:35 IST" name="toVerifyingDatesInBookingConfirm" finished-at="2025-10-27T23:46:02 IST" duration-ms="26497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyingDatesInBookingConfirm -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC113_VerifyingDates_BookingConfirm@53a665ad]" started-at="2025-10-27T23:46:02 IST" name="tearDown" finished-at="2025-10-27T23:46:05 IST" duration-ms="3295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyingDatesInBookingConfirm status=SUCCESS method=TC113_VerifyingDates_BookingConfirm.toVerifyingDatesInBookingConfirm()[pri:0, instance:com.adactinhotelapp.testcases.TC113_VerifyingDates_BookingConfirm@53a665ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC113_VerifyingDates_BookingConfirm -->
+      <class name="com.adactinhotelapp.testcases.TC102_toVerifyCheckIn_CheckOut_Dates">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC102_toVerifyCheckIn_CheckOut_Dates@54657dd2]" started-at="2025-10-27T23:43:21 IST" name="setUp" finished-at="2025-10-27T23:43:24 IST" duration-ms="2905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyingChkInAndChkOutDates()[pri:0, instance:com.adactinhotelapp.testcases.TC102_toVerifyCheckIn_CheckOut_Dates@54657dd2]" started-at="2025-10-27T23:43:24 IST" name="verifyingChkInAndChkOutDates" finished-at="2025-10-27T23:43:27 IST" duration-ms="3056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingChkInAndChkOutDates -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC102_toVerifyCheckIn_CheckOut_Dates@54657dd2]" started-at="2025-10-27T23:43:27 IST" name="tearDown" finished-at="2025-10-27T23:43:30 IST" duration-ms="3236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingChkInAndChkOutDates status=SUCCESS method=TC102_toVerifyCheckIn_CheckOut_Dates.verifyingChkInAndChkOutDates()[pri:0, instance:com.adactinhotelapp.testcases.TC102_toVerifyCheckIn_CheckOut_Dates@54657dd2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC102_toVerifyCheckIn_CheckOut_Dates -->
+      <class name="com.adactinhotelapp.testcases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel@4d654825]" started-at="2025-10-27T23:48:21 IST" name="setUp" finished-at="2025-10-27T23:48:24 IST" duration-ms="2938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="toVerifyingFieldsInSelectHotel()[pri:0, instance:com.adactinhotelapp.testcases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel@4d654825]" started-at="2025-10-27T23:48:24 IST" name="toVerifyingFieldsInSelectHotel" finished-at="2025-10-27T23:49:32 IST" duration-ms="68474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyingFieldsInSelectHotel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel@4d654825]" started-at="2025-10-27T23:49:32 IST" name="tearDown" finished-at="2025-10-27T23:49:35 IST" duration-ms="3364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyingFieldsInSelectHotel status=SUCCESS method=TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel.toVerifyingFieldsInSelectHotel()[pri:0, instance:com.adactinhotelapp.testcases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel@4d654825] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC117_VerifyingIfSearchIdShowingValidDeatils_SelectHotel -->
+      <class name="com.adactinhotelapp.testcases.TC115_VerifyingIfItineraryDetailsEditable_SelectHotel">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC115_VerifyingIfItineraryDetailsEditable_SelectHotel@78525ef9]" started-at="2025-10-27T23:46:37 IST" name="setUp" finished-at="2025-10-27T23:46:40 IST" duration-ms="2986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="toVerifyingDatesInBookingConfirm()[pri:0, instance:com.adactinhotelapp.testcases.TC115_VerifyingIfItineraryDetailsEditable_SelectHotel@78525ef9]" started-at="2025-10-27T23:46:40 IST" name="toVerifyingDatesInBookingConfirm" finished-at="2025-10-27T23:47:21 IST" duration-ms="40903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyingDatesInBookingConfirm -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC115_VerifyingIfItineraryDetailsEditable_SelectHotel@78525ef9]" started-at="2025-10-27T23:47:21 IST" name="tearDown" finished-at="2025-10-27T23:47:25 IST" duration-ms="3307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyingDatesInBookingConfirm status=SUCCESS method=TC115_VerifyingIfItineraryDetailsEditable_SelectHotel.toVerifyingDatesInBookingConfirm()[pri:0, instance:com.adactinhotelapp.testcases.TC115_VerifyingIfItineraryDetailsEditable_SelectHotel@78525ef9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC115_VerifyingIfItineraryDetailsEditable_SelectHotel -->
+      <class name="com.adactinhotelapp.testcases.TC104_VerifyingTheSearchHotelDetails">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC104_VerifyingTheSearchHotelDetails@72725ee1]" started-at="2025-10-27T23:43:39 IST" name="setUp" finished-at="2025-10-27T23:43:42 IST" duration-ms="2963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyingTheSearchHotelDetails()[pri:0, instance:com.adactinhotelapp.testcases.TC104_VerifyingTheSearchHotelDetails@72725ee1]" started-at="2025-10-27T23:43:42 IST" name="verifyingTheSearchHotelDetails" finished-at="2025-10-27T23:43:47 IST" duration-ms="5128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheSearchHotelDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC104_VerifyingTheSearchHotelDetails@72725ee1]" started-at="2025-10-27T23:43:47 IST" name="tearDown" finished-at="2025-10-27T23:43:50 IST" duration-ms="3329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingTheSearchHotelDetails status=SUCCESS method=TC104_VerifyingTheSearchHotelDetails.verifyingTheSearchHotelDetails()[pri:0, instance:com.adactinhotelapp.testcases.TC104_VerifyingTheSearchHotelDetails@72725ee1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC104_VerifyingTheSearchHotelDetails -->
+      <class name="com.adactinhotelapp.testcases.TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel@2d0ecb24]" started-at="2025-10-27T23:47:25 IST" name="setUp" finished-at="2025-10-27T23:47:28 IST" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="toVerifyingFieldsInSelectHotel()[pri:0, instance:com.adactinhotelapp.testcases.TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel@2d0ecb24]" started-at="2025-10-27T23:47:28 IST" name="toVerifyingFieldsInSelectHotel" finished-at="2025-10-27T23:48:17 IST" duration-ms="49680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyingFieldsInSelectHotel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel@2d0ecb24]" started-at="2025-10-27T23:48:17 IST" name="tearDown" finished-at="2025-10-27T23:48:21 IST" duration-ms="3291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyingFieldsInSelectHotel status=SUCCESS method=TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel.toVerifyingFieldsInSelectHotel()[pri:0, instance:com.adactinhotelapp.testcases.TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel@2d0ecb24] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC116_VerifyingIfItineraryDetailsReflectingCorrect_SelectHotel -->
+      <class name="com.adactinhotelapp.testcases.TC103_ToVerifyErrorMSGInDateField">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC103_ToVerifyErrorMSGInDateField@706eab5d]" started-at="2025-10-27T23:43:30 IST" name="setUp" finished-at="2025-10-27T23:43:33 IST" duration-ms="3158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="toVerifyErrorMSGInDateField()[pri:0, instance:com.adactinhotelapp.testcases.TC103_ToVerifyErrorMSGInDateField@706eab5d]" started-at="2025-10-27T23:43:33 IST" name="toVerifyErrorMSGInDateField" finished-at="2025-10-27T23:43:36 IST" duration-ms="2748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyErrorMSGInDateField -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC103_ToVerifyErrorMSGInDateField@706eab5d]" started-at="2025-10-27T23:43:36 IST" name="tearDown" finished-at="2025-10-27T23:43:39 IST" duration-ms="3245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyErrorMSGInDateField status=SUCCESS method=TC103_ToVerifyErrorMSGInDateField.toVerifyErrorMSGInDateField()[pri:0, instance:com.adactinhotelapp.testcases.TC103_ToVerifyErrorMSGInDateField@706eab5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC103_ToVerifyErrorMSGInDateField -->
+      <class name="com.adactinhotelapp.testcases.TC110_VerifyTheTotalPricesOfTheRoomsWithGST">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC110_VerifyTheTotalPricesOfTheRoomsWithGST@61f39bb]" started-at="2025-10-27T23:44:53 IST" name="setUp" finished-at="2025-10-27T23:44:56 IST" duration-ms="3063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="toVerifyNumOfRooms()[pri:0, instance:com.adactinhotelapp.testcases.TC110_VerifyTheTotalPricesOfTheRoomsWithGST@61f39bb]" started-at="2025-10-27T23:44:56 IST" name="toVerifyNumOfRooms" finished-at="2025-10-27T23:45:01 IST" duration-ms="5021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyNumOfRooms -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC110_VerifyTheTotalPricesOfTheRoomsWithGST@61f39bb]" started-at="2025-10-27T23:45:01 IST" name="tearDown" finished-at="2025-10-27T23:45:04 IST" duration-ms="3267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyNumOfRooms status=SUCCESS method=TC110_VerifyTheTotalPricesOfTheRoomsWithGST.toVerifyNumOfRooms()[pri:0, instance:com.adactinhotelapp.testcases.TC110_VerifyTheTotalPricesOfTheRoomsWithGST@61f39bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC110_VerifyTheTotalPricesOfTheRoomsWithGST -->
+      <class name="com.adactinhotelapp.testcases.TC107_ToVerifyRoomType_SearchHotel">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC107_ToVerifyRoomType_SearchHotel@3a230001]" started-at="2025-10-27T23:44:14 IST" name="setUp" finished-at="2025-10-27T23:44:17 IST" duration-ms="2944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="toVerifyRoomType()[pri:0, instance:com.adactinhotelapp.testcases.TC107_ToVerifyRoomType_SearchHotel@3a230001]" started-at="2025-10-27T23:44:17 IST" name="toVerifyRoomType" finished-at="2025-10-27T23:44:23 IST" duration-ms="5547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyRoomType -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC107_ToVerifyRoomType_SearchHotel@3a230001]" started-at="2025-10-27T23:44:23 IST" name="tearDown" finished-at="2025-10-27T23:44:26 IST" duration-ms="3290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyRoomType status=SUCCESS method=TC107_ToVerifyRoomType_SearchHotel.toVerifyRoomType()[pri:0, instance:com.adactinhotelapp.testcases.TC107_ToVerifyRoomType_SearchHotel@3a230001] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC107_ToVerifyRoomType_SearchHotel -->
+      <class name="com.adactinhotelapp.testcases.TC120_VerifyAllPagesTitles">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC120_VerifyAllPagesTitles@abff8b7]" started-at="2025-10-27T23:52:32 IST" name="setUp" finished-at="2025-10-27T23:52:35 IST" duration-ms="2954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="titlesVerify()[pri:0, instance:com.adactinhotelapp.testcases.TC120_VerifyAllPagesTitles@abff8b7]" started-at="2025-10-27T23:52:35 IST" name="titlesVerify" finished-at="2025-10-27T23:52:44 IST" duration-ms="8798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titlesVerify -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC120_VerifyAllPagesTitles@abff8b7]" started-at="2025-10-27T23:52:44 IST" name="tearDown" finished-at="2025-10-27T23:52:47 IST" duration-ms="3305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=titlesVerify status=SUCCESS method=TC120_VerifyAllPagesTitles.titlesVerify()[pri:0, instance:com.adactinhotelapp.testcases.TC120_VerifyAllPagesTitles@abff8b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC120_VerifyAllPagesTitles -->
+      <class name="com.adactinhotelapp.testcases.TC114_VerifyingOrderNumber_BookingConfirm">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC114_VerifyingOrderNumber_BookingConfirm@2c0b4c83]" started-at="2025-10-27T23:46:05 IST" name="setUp" finished-at="2025-10-27T23:46:08 IST" duration-ms="2914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="toVerifyingDatesInBookingConfirm()[pri:0, instance:com.adactinhotelapp.testcases.TC114_VerifyingOrderNumber_BookingConfirm@2c0b4c83]" started-at="2025-10-27T23:46:08 IST" name="toVerifyingDatesInBookingConfirm" finished-at="2025-10-27T23:46:34 IST" duration-ms="26177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyingDatesInBookingConfirm -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC114_VerifyingOrderNumber_BookingConfirm@2c0b4c83]" started-at="2025-10-27T23:46:34 IST" name="tearDown" finished-at="2025-10-27T23:46:37 IST" duration-ms="3303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyingDatesInBookingConfirm status=SUCCESS method=TC114_VerifyingOrderNumber_BookingConfirm.toVerifyingDatesInBookingConfirm()[pri:0, instance:com.adactinhotelapp.testcases.TC114_VerifyingOrderNumber_BookingConfirm@2c0b4c83] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC114_VerifyingOrderNumber_BookingConfirm -->
+      <class name="com.adactinhotelapp.testcases.TC111_ValidatingFields_BookHotelPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC111_ValidatingFields_BookHotelPage@249e0271]" started-at="2025-10-27T23:45:04 IST" name="setUp" finished-at="2025-10-27T23:45:07 IST" duration-ms="2926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="toValidatingFieldsInBookHotelPage()[pri:0, instance:com.adactinhotelapp.testcases.TC111_ValidatingFields_BookHotelPage@249e0271]" started-at="2025-10-27T23:45:07 IST" name="toValidatingFieldsInBookHotelPage" finished-at="2025-10-27T23:45:15 IST" duration-ms="7719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toValidatingFieldsInBookHotelPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC111_ValidatingFields_BookHotelPage@249e0271]" started-at="2025-10-27T23:45:15 IST" name="tearDown" finished-at="2025-10-27T23:45:18 IST" duration-ms="3282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toValidatingFieldsInBookHotelPage status=SUCCESS method=TC111_ValidatingFields_BookHotelPage.toValidatingFieldsInBookHotelPage()[pri:0, instance:com.adactinhotelapp.testcases.TC111_ValidatingFields_BookHotelPage@249e0271] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC111_ValidatingFields_BookHotelPage -->
+      <class name="com.adactinhotelapp.testcases.TC119_VerifyingIfOrderIdDeleted_SelectHotel">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC119_VerifyingIfOrderIdDeleted_SelectHotel@51b35e4e]" started-at="2025-10-27T23:50:40 IST" name="setUp" finished-at="2025-10-27T23:50:43 IST" duration-ms="2978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="toVerifyingIfOrderIdDeleted()[pri:0, instance:com.adactinhotelapp.testcases.TC119_VerifyingIfOrderIdDeleted_SelectHotel@51b35e4e]" started-at="2025-10-27T23:50:43 IST" name="toVerifyingIfOrderIdDeleted" finished-at="2025-10-27T23:52:29 IST" duration-ms="105386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyingIfOrderIdDeleted -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC119_VerifyingIfOrderIdDeleted_SelectHotel@51b35e4e]" started-at="2025-10-27T23:52:29 IST" name="tearDown" finished-at="2025-10-27T23:52:32 IST" duration-ms="3284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyingIfOrderIdDeleted status=SUCCESS method=TC119_VerifyingIfOrderIdDeleted_SelectHotel.toVerifyingIfOrderIdDeleted()[pri:0, instance:com.adactinhotelapp.testcases.TC119_VerifyingIfOrderIdDeleted_SelectHotel@51b35e4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC119_VerifyingIfOrderIdDeleted_SelectHotel -->
+      <class name="com.adactinhotelapp.testcases.TC106_ToVerifyNumOfRooms_SearchHotel">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC106_ToVerifyNumOfRooms_SearchHotel@3f9270ed]" started-at="2025-10-27T23:44:02 IST" name="setUp" finished-at="2025-10-27T23:44:05 IST" duration-ms="2939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="toVerifyNumOfRooms()[pri:0, instance:com.adactinhotelapp.testcases.TC106_ToVerifyNumOfRooms_SearchHotel@3f9270ed]" started-at="2025-10-27T23:44:05 IST" name="toVerifyNumOfRooms" finished-at="2025-10-27T23:44:11 IST" duration-ms="5826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyNumOfRooms -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC106_ToVerifyNumOfRooms_SearchHotel@3f9270ed]" started-at="2025-10-27T23:44:11 IST" name="tearDown" finished-at="2025-10-27T23:44:14 IST" duration-ms="3299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyNumOfRooms status=SUCCESS method=TC106_ToVerifyNumOfRooms_SearchHotel.toVerifyNumOfRooms()[pri:0, instance:com.adactinhotelapp.testcases.TC106_ToVerifyNumOfRooms_SearchHotel@3f9270ed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC106_ToVerifyNumOfRooms_SearchHotel -->
+      <class name="com.adactinhotelapp.testcases.TC105_ToVerifyChkIn_Out_DateProper_SearchHotel">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactinhotelapp.testcases.TC105_ToVerifyChkIn_Out_DateProper_SearchHotel@40e60ece]" started-at="2025-10-27T23:43:50 IST" name="setUp" finished-at="2025-10-27T23:43:53 IST" duration-ms="2956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyingChkInAndChkOutDates()[pri:0, instance:com.adactinhotelapp.testcases.TC105_ToVerifyChkIn_Out_DateProper_SearchHotel@40e60ece]" started-at="2025-10-27T23:43:53 IST" name="verifyingChkInAndChkOutDates" finished-at="2025-10-27T23:43:59 IST" duration-ms="5611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingChkInAndChkOutDates -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.adactinhotelapp.testcases.TC105_ToVerifyChkIn_Out_DateProper_SearchHotel@40e60ece]" started-at="2025-10-27T23:43:59 IST" name="tearDown" finished-at="2025-10-27T23:44:02 IST" duration-ms="3302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingChkInAndChkOutDates status=SUCCESS method=TC105_ToVerifyChkIn_Out_DateProper_SearchHotel.verifyingChkInAndChkOutDates()[pri:0, instance:com.adactinhotelapp.testcases.TC105_ToVerifyChkIn_Out_DateProper_SearchHotel@40e60ece] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactinhotelapp.testcases.TC105_ToVerifyChkIn_Out_DateProper_SearchHotel -->
+    </test> <!-- All Test Cases -->
+  </suite> <!-- FinalSuite -->
 </testng-results>

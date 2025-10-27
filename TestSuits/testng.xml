@@ -4,13 +4,13 @@
 <suite name="regression">
 
     <listeners>
-           <listener class-name="Listnears.TestNGListners"/>
+           <listener class-name="com.adactinhotelapp.listnears.TestNGListners"/>
     </listeners>
 
-    <test thread-count="5" name="Test">
+    <test thread-count="5" name="Test">   
         <classes>
-            <class name="testCases.TC101_ToVerifyValidLoginDetails"/>
-            <class name="testCases.TC102_ValidatingForgotPossword"/>
+            <class name="com.adactinhotelapp.testcases.TC101_ToVerifyValidLoginDetails"/>
+            <class name="com.adactinhotelapp.testcases.TC121_ValidatingForgotPossword"/>
         </classes>
     </test>
 

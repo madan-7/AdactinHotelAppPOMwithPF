@@ -122,10 +122,11 @@ public class TC119_VerifyingIfOrderIdDeleted_SelectHotel extends BaseClass {
 
 			// input[@class="select_text" and contains(@name,'order_id')]
 
-			ChainTestListener.log("TC119_VerifyingIfOrderIdDeleted_SelectHotel has ended");
-			Allure.step("Test TC119_VerifyingIfOrderIdDeleted_SelectHotel has ended");
+			
 		
 	}
+		ChainTestListener.log("TC119_VerifyingIfOrderIdDeleted_SelectHotel has ended");
+		Allure.step("Test TC119_VerifyingIfOrderIdDeleted_SelectHotel has ended");
 	}
 
 }
